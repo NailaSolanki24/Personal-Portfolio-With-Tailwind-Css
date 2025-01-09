@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="text-teal-500 text-2xl font-bold font-mono pl-0">
         My Portfolio
       </div>
-      <ul className="gap-6 lg:gap-8 hidden md:flex">
+      <ul className="gap-6 lg:gap-8  md:flex">
           <li className="menuLink">
             <Link href="/" className="text-white text-lg md:text-2xl cursor-pointer hover:text-teal-500 transition-colors duration-300">
               Home
@@ -18,6 +18,11 @@ const Navbar = () => {
           <li className="menuLink">
             <Link href="/about" className="text-white text-lg md:text-2xl cursor-pointer hover:text-teal-500 transition-colors duration-300">
               About
+            </Link>
+          </li>
+          <li className="menuLink">
+            <Link href="/skills" className="text-white text-lg md:text-2xl cursor-pointer hover:text-teal-500 transition-colors duration-300">
+              Skills
             </Link>
           </li>
           <li className="menuLink">
@@ -33,7 +38,9 @@ const Navbar = () => {
         </ul>
       </div>
     </div>
+  
   );
 };
 
 export default Navbar;
+

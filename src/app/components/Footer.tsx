@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { CiYoutube } from "react-icons/ci";
-import { MdOutlineMail } from "react-icons/md";
+import { MdOutlineMail} from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -32,7 +32,7 @@ const Footer = () => {
 
           {/* LinkedIn Link */}
           <a
-            href="https://www.linkedin.com/in/naila-solanki-a77425337"
+            href="httpa://www.linkedin.com/in/naila-solanki-a77425337"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-500"
